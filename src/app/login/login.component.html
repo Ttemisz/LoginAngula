@@ -1,0 +1,39 @@
+<div class=" d-flex align-items-center justify-content-center min-vh-100" style="background-color: #0d1a36;">
+  <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
+    <h2 class="text-center mb-4">Entrar</h2>
+    <form [formGroup]="LoginForm" >
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+        formControlName="email" 
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Digite seu email"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="senha" class="form-label">Senha</label>
+        <input
+        formControlName="senha"
+          type="password"
+          class="form-control"
+          id="senha"
+          placeholder="Digite sua senha"
+          required
+        />
+      </div>
+
+      <div class="d-grid mb-2">
+        <button type="submit" (click)="onSubmit()"  class="btn btn-primary">Login</button>
+      </div>
+
+      <div class="text-center">
+        <small>Não tem uma conta?</small>
+        <a href="/registro"  class="btn btn-link">Registrar</a>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<div class=" d-flex align-items-center justify-content-center min-vh-100" style="background-color: #0d1a36;">
+  <div class="card shadow p-4" style="width: 100%; max-width: 450px;">
+    <h2 class="text-center mb-4">Criar Conta</h2>
+    <form [formGroup]="RegistroForm" >
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome completo</label>
+        <input
+            formControlName="nome"
+          type="text"
+          class="form-control"
+          id="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+        formControlName="email"
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Digite seu email"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="senha" class="form-label">Senha</label>
+        <input
+            formControlName="senha"
+          type="password"
+          class="form-control"
+          id="senha"
+          placeholder="Crie uma senha"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="confirmarSenha" class="form-label">Confirmar Senha</label>
+        <input
+            formControlName="confirmarSenha"
+          type="password"
+          class="form-control"
+          id="confirmarSenha"
+          placeholder="Repita a senha"
+          required
+        />
+      </div>
+
+      <div class="d-grid" >
+        <button type="submit" (click)="onSubmit()" class="btn btn-success">Registrar</button>
+        
+      </div>
+
+      <div class="text-center mt-3">
+        <small>Já tem uma conta? <a href="/">Entrar</a></small>
+      </div>
+    </form>
+  </div>
+</div>
