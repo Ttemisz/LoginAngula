@@ -10,7 +10,6 @@ Este projeto é uma aplicação web de autenticação desenvolvida com [Angular]
 - Backend Node.js com API REST para cadastro e consulta de usuários
 - Integração com banco de dados MySQL
 - Senhas protegidas com hash (bcrypt)
-- Mensagens de validação em tempo real nos formulários
 
 ## Estrutura do Projeto
 
