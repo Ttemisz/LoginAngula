@@ -1,4 +1,4 @@
-# LoginAngular
+# LoginAngula
 
 Este projeto é uma aplicação web de autenticação desenvolvida com [Angular](https://angular.io/) (versão 19) e um backend Node.js/Express para persistência de usuários em MySQL.
 
