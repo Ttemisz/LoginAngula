@@ -70,12 +70,6 @@ src/
    ```
    Acesse `http://localhost:4200` no navegador.
 
-## Como adicionar imagens ao projeto
-
-Coloque suas imagens na pasta `src/assets` e use no HTML assim:
-```html
-<img src="assets/sua-imagem.png" alt="Descrição">
-```
 
 ## Scripts úteis
 
