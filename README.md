@@ -84,6 +84,3 @@ src/
 - As credenciais do banco de dados podem ser ajustadas em [`src/api-node/db.js`](src/api-node/db.js).
 - Cadastre novos usuários após a implementação do hash de senha para garantir o login seguro.
 
-## Licença
-
-Este projeto está sob a licença MIT.
